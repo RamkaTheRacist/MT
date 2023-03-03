@@ -1,0 +1,11 @@
+1)mkdir 'toys for schooler'; mkdir 'toys for preschooler'
+2)touch ./toys\ for\ schooler/Robots; touch ./toys\ for\ schooler/Constructor; touch ./toys\ for\ s
+chooler/Board\ games
+3)touch ./toys\ for\ preschooler/Soft\ toys; touch ./toys\ for\ preschooler/Dolls; touch ./toys\ fo
+r\ preschooler/Cars
+4)mkdir Toys\ name; mv 'toys for schooler'/* ./Toys\ name; rm -R toys\ for\ schooler/; mv 'toys for preschooler'/* ./Toys\ name; rm -R toys\ for\ preschooler/
+5)mv Toys\ name/ Toys
+6)ls -al ./Toys/
+7)sudo snap install gimp; sudo snap remove gimp
+8)crontab -e
+*add*: 3 * * * * mkdir -p /home/ramkatr/tfffs; date > /home/ramkatr/tfffs/testf1
